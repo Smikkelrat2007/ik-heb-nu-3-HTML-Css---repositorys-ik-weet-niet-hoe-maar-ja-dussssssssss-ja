@@ -1,0 +1,127 @@
+body {
+  background-color: black;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-size: 900px, 1000px;
+  margin: 5px;
+  padding: 6px;
+  background-position: center;
+}
+.menu {
+  border: 3px solid rgb(100,255,100);
+  padding: 3px;
+  overflow: hidden;
+  color: white;
+  background-color: rgb(100,255,100);
+  border-radius: 25px;
+  margin: 20px;
+  float: left;
+}
+.menu:link {
+  color: black;
+}
+.menu:visited {
+  color: rgb(50,50,50);
+}
+.menu:hover {
+  background-color: rgb(200,255,200);
+  border: 3px solid rgb(200,255,200);
+}
+
+.een {
+
+  font-size: 19px;
+  color: rgb(128,255,128);
+  border: 4px dashed rgb(128,255,128);
+  border-radius: 20px;
+  margin: 40px;
+  margin-top: 0px;
+  width: 380px;
+  padding: 10px;
+
+}
+.twee {
+  color: rgb(128,255,128);
+  border: 5px solid rgb(128,255,128);
+  border-radius: 20px;
+  margin: 40px;
+  width: 380px;
+  padding: 10px;
+}
+.drie{
+  color: rgb(128,255,128);
+  border: solid rgb(128,255,128);
+  border-radius: 20px;
+  margin: 40px;
+  width: 380px;
+  padding: 10px;
+}
+
+
+h1 {
+  font-size: 30px;
+  align-content: center;
+  color: white;
+  padding: lightblue;
+  margin-left: 40px;
+  margin-bottom: 0px;
+  width: 380px;
+
+}
+h2 {
+  font-size: 23px;
+  align-content: center;
+  color: white;
+  padding: lightblue;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  width: 380px;
+}
+p {
+  font-size: 20px;
+  margin: 100px;
+  color: lightblue;
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 50%;
+}
+tr {
+  color: black;
+  background-color: rgb(128,255,128);
+  margin: 0px;
+  border-spacing: 0px;
+  padding: 0px;
+}
+
+td{
+ padding: 0px;
+ border-style: solid;
+ border-color: white;
+ border-spacing: 0px;
+ border-width: 2px;
+ width: 0px;
+ height: 30px;
+}
+
+.bovenste-kolom {
+  color: black;
+  background-color: rgb(128,255,128);
+  border: 2px solid white;
+}
+.header{
+  color: black;
+  background-color: rgb(100,225,100);
+  border: 2px solid white;
+}
+
+table{
+  width: 100%;
+  background-color: black;
+}
+
+ul, li, ol{
+  color: lightblue;
+}
