@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+header {
+  margin: 0px;
+  padding: 50px;
+  #background: url('https://media.nu.nl/m/ppoxljgayu9r_wd1280.jpg');
+  background-size: cover;
+
+}
+header h1 {
+  font-size: 250%;
+  font-family: Georgia, serif;
+  color: purple;
+  text-align: center;
+}
+
+.nav a {
+  color: white;
+  overflow: hidden;
+  border-radius: 500px;
+  border: rgb(34, 102, 102) solid 3px;
+  background-color: rgb(34, 102, 102);
+  text-decoration: none;
+
+
+}
+ul li a:hover {
+  border-color: rgb(170, 108, 57);
+  background-color: rgb(170, 108, 57);
+  color: white;
+  font-weight: bold;
+
+}
+.nav {
+  text-decoration: none;
+  margin: 20px;
+  color: white;
+  list-style: none;
+}
+#black {
+  background-color: black;
+  z-index: 0;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 200px;
+  left: 390px;
+}
+#blue {
+  background-color: blue;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 340px;
+  left: 530px;
+}
+#yelow {
+  background-color: yellow;
+  z-index: 2;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 200px;
+  left: 390px;
+}
+#red {
+  background-color: red;
+  z-index: 3;
+  width: 115px;
+  height: 115px;
+  position: absolute;
+  top: 200px;
+  left: 390px;
+}
+#green {
+  background-color: green;
+  z-index: 4;
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 300px;
+  left: 490px;
+}
+#kleurveranderend {
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+  color: yellow;
+  float: right;
+  position: absolute;
+  top: 300px;
+  left: 200px;
+}
+#kleurveranderend:hover {
+  width: 300px;
+  height: 300px;
+  background-color: green;
+  color: yellow;
+  float: right;
+}
+
+nav {
+  length: 30px;
+  float: left;
+  list-style: none;
+}
+
+article {
+  border: 7px solid rgb(170, 132, 57);
+  border-radius: 20px;
+  margin: 15px;
+  color: white;
+  float: left;
+}
+section {
+  float: left;
+  width: 80%;
+}
+footer h3 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 110%;
+  color: white;
+  background-color: rgb(170, 132, 57);
+  border: 3px solid rgb(170, 132, 57);
+  border radius: 20px;
+  position: fixed;
+  top: 630px;
+  left: 0px;
+  width: 100%;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  #background: url('file:///C:/Users/zenof/Downloads/1356216.jpg') no-repeat;
+  background: rgb(46, 65, 114) no-repeat;
+  background-size: cover;
+  color: white;
+}

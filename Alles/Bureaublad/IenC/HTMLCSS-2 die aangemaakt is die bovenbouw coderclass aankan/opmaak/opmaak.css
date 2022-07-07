@@ -1,0 +1,49 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  background-color: rgb(134, 39, 110);
+  color: white;
+}
+nav {
+  float: left;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-decoration: none;
+}
+div.nav {
+  margin-bottom: 10px;
+
+  background-color: rgb(181, 62, 53);
+
+  text-align: center;
+
+
+  text-decoration: none;
+  border: 3px solid green;
+  border-radius: 10px;
+  padding: 5px;
+/*
+  animation-name: hovered;
+  animation-duration: 1s */
+
+
+}
+li.nav:hover {
+      /* transform: scale(1.1); */
+}
+
+li.nav:hover {
+  transition: 0.2s cubic-bezier(0.18, 0.89, 0.32, 1.28), 0.2s ease opacity, 0.2s cubic-bezier(.08,.82,.17,1) transform;
+}
+
+a.nav {
+  display: block;
+  text-decoration: none;
+  color:white;
+  margin-bottom: 11px;
+  border: 3px;
+  border-radius: 10px;
+}
