@@ -1,0 +1,38 @@
+:root {
+  --color1: rgb(154, 166, 55);
+  --color2: rgb(37, 110, 94);
+  --color3: rgb(94, 151, 50);
+  --color4: white;
+  --color5: rgb();
+}
+body {
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--color1);
+}
+.body {
+  width: 90%;
+}
+header {
+  padding-top: 40px;
+  color: var(--color2);
+  text-align: center;
+}
+article {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+
+}
+img {
+  border: 3px solid var(--color4);
+  position: relative;
+}
+.reload {
+  width: 100%;
+  height: 10%;
+  padding-top: 30%;
+  text-align: center;
+  color: var(--color5);
+  background-color: var(--color1);
+}
